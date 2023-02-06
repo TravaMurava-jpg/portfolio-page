@@ -104,7 +104,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url('img/avatar.jpg') no-repeat center center/cover;
+    background: url('./img/avatar.jpg') no-repeat center center/cover;
     height: 650px;
     width: 100%;
     z-index: -1;
