@@ -225,10 +225,12 @@
   
   .project {
     margin-bottom: 30px;
+    background-color: whitesmoke;
   }
 
   .project2 {
     margin-bottom: 30px;
+    background-color: whitesmoke;
   }
 
   .project img{
@@ -242,26 +244,15 @@
   }
   
   .project h3{
-    background-color: black;
-    color: white;
-    box-shadow: 0 0 5px black ;
+    color: black;
+    font-size: 50px;
   }
 
   .project2 h3{
-    background-color: black;
-    color: white;
-    box-shadow: 0 0 5px black ;
+    color: black;
+    font-size: 50px;
   }
 
-  .project2 h3:hover{
-    background-color: white;
-    color: black;
-  }
-
-  .project h3:hover{
-    background-color: white;
-    color: black;
-  }
 
   a {
     text-decoration: none;
@@ -387,5 +378,43 @@
             font-size: 1.1rem;
             font-weight: bold;
         }
+  }
+  
+  .contact-section {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .contact-boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-box {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .contact-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px black ;
+  }
+  
+  .contact-box a {
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .contact-box h3:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
   }
   
