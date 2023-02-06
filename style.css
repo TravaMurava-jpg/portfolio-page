@@ -253,6 +253,16 @@
     box-shadow: 0 0 5px black ;
   }
 
+  .project2 h3:hover{
+    background-color: white;
+    color: black;
+  }
+
+  .project h3:hover{
+    background-color: white;
+    color: black;
+  }
+
   a {
     text-decoration: none;
   }
