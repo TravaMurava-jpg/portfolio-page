@@ -241,6 +241,17 @@
     height: 600px;
   }
   
+  .project h3{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px black ;
+  }
+
+  .project2 h3{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px black ;
+  }
 
   a {
     text-decoration: none;
@@ -248,7 +259,7 @@
   h3 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: blue;
+    color: black;
     
   }
   
@@ -276,8 +287,16 @@
     margin: 0 10px;
     font-size: 18px;
     text-decoration: none;
-    color: blue;
+    color: black
   }
+
+  .contact-links a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px black ;
+  }
+
+
 
   @media (max-width: 1000px) {
     .navbar ul { display: none; }
