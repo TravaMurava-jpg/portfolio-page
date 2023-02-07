@@ -449,6 +449,11 @@
   @media (max-width: 800px) {
     .navbar ul { display: none; }
     .dropdown {display: inline-block;}
+    .content {
+   
+        font-size: 30px;
+        
+      }
         #pic img{
             width: 480px;
             height: 480px;
