@@ -294,7 +294,6 @@
     height: 50px;
     margin: 10px;
     margin-top: 2px;
-    padding: 10px;
     border: 1px solid gray;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -307,7 +306,6 @@
     height: 50px;
     margin: 10px;
     margin-top: 2px;
-    padding: 10px;
     border: 1px solid gray;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -362,8 +360,8 @@
   }
 
   .project img{
-    width: 1000px;
-    height: 480px;
+    width: 100%;
+    height: 100%;
   }
 
   .project2 img{
@@ -449,6 +447,26 @@
   @media (max-width: 800px) {
     .navbar ul { display: none; }
     .dropdown {display: inline-block;}
+    .headings{
+        font-size: 25px;
+
+    }
+
+    .project p{
+        font-size: 18px;
+    }
+    .project2 p{
+        font-size: 18px;
+    }
+    .project h3{
+        color: black;
+        font-size: 28px;
+      }
+
+      .project2 h3{
+        color: black;
+        font-size: 28px;
+      }
     .content {
    
         font-size: 20px;
@@ -491,8 +509,8 @@
           }
 
           .project2 img{
-            width: 320px;
-            height: 600px;
+            width: 160px;
+            height: 300px;
           }
 
           #intro p{
