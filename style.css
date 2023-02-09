@@ -332,6 +332,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     margin-bottom: 20px;
+    padding: 15px;
 }
 
 
@@ -342,6 +343,7 @@
     font-size: 2rem;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 15px;
 }
 
 .projects-section {
