@@ -407,7 +407,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 15px;
 }
-  
+
   .contact-section {
     align-items: baseline;
     text-align: center;
@@ -452,6 +452,11 @@
     .headings{
         font-size: 25px;
 
+    }
+
+    video#videopr{
+      width: 300px;
+      height: 300px;
     }
 
     .project p{
