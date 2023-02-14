@@ -194,7 +194,7 @@
     margin-top: 5px;
   }
 
-.dropdown a:hover{
+.dropdown a:focus{
     background-color: white;
     color: black;
     box-shadow: 0 0 10px white ;
