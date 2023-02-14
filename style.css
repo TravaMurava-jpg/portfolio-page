@@ -177,9 +177,7 @@
   
 
 
-.dropdown {
-    display: none;
-}
+
 
 .dropdown {
     display: none;
@@ -194,7 +192,7 @@
     margin-top: 5px;
   }
 
-.dropdown a:focus{
+.dropdown a:hover{
     background-color: white;
     color: black;
     box-shadow: 0 0 10px white ;
