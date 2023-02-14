@@ -6,7 +6,7 @@
     overflow-x: clip; 
 }
 
-
+html { overflow-x: clip; } 
 
 
 #background-video {
@@ -198,6 +198,7 @@
     background-color: white;
     color: black;
     box-shadow: 0 0 10px white ;
+    cursor: pointer;
 }
 
 
