@@ -343,6 +343,7 @@ html, body {
 
 
 
+
 #projects h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
@@ -440,6 +441,16 @@ html, body {
     color: white;
     box-shadow: 0 0 5px black ;
   }
+
+  .contact-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px black ;
+  }
+  
+  
 
   @media (max-width: 1000px) {
     #primary span {
@@ -543,6 +554,13 @@ html, body {
             
         }
 
+        .contact-box h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          background-color: black;
+          color: white;
+          box-shadow: 0 0 5px black ;
+        }
         #home::before{
             content: "";
             position: absolute;
@@ -579,14 +597,6 @@ html, body {
     text-align: center;
     margin: 0 10px;
     border-radius: 5px;
-  }
-  
-  .contact-box h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    background-color: black;
-    color: white;
-    box-shadow: 0 0 5px black ;
   }
   
   .contact-box a {
